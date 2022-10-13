@@ -1,0 +1,9 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.home_section{
+ display: flex;  
+ padding: 30px; 
+ 
+}

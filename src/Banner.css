@@ -1,0 +1,45 @@
+.banner{
+    background-image: url('https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=600');
+    height: 50vh;
+    position: relative;
+}
+
+
+.banner_info{
+    width: 340px;
+    background-color: black;
+    color: white;
+    height:100%;
+    padding: 20vh 50px 50px 40px;
+}
+.banner_info > Button{
+    background-color: #ff7779;
+    color: white;
+    transition: 1s;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.banner_info > Button:hover{
+    color: #ff7779;
+    background-color: white;
+}
+.banner_info > h5{
+    margin-top: 10px;
+}
+
+
+.banner_search{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    
+    
+
+}
+.banner_searchbutton{
+    color: #ff7779 !important;
+    background-color: white  !important;
+    font-weight: 900  !important;
+    text-transform: inherit  !important;
+}
